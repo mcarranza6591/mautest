@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Exterior Kickoff Checklist</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello There</h1>
+    <h1>Exterior Kickoff Checklist</h1>
+    <form id="kickoff-form">
+        <label for="customer">Customer:</label>
+        <input type="text" id="customer" name="customer"><br><br>
+
+        <label for="crew-lead">Crew Lead:</label>
+        <input type="text" id="crew-lead" name="crew-lead"><br><br>
+
+        <label for="po">PO:</label>
+        <input type="text" id="po" name="po"><br><br>
+
+        <h2>Review work order:</h2>
+        <label>
+            <input type="checkbox" name="review-work-order" value="Confirm all colors & verify that materials are on-site or ordered">
+            Confirm all colors & verify that materials are on-site or ordered
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="review-work-order" value="Discuss exclusions">
+            Discuss exclusions
+        </label><br>
+
+        <label for="special-areas">Special areas of concern (plants, pets, furniture):</label><br>
+        <textarea id="special-areas" name="special-areas"></textarea><br><br>
+
+        <label>
+            <input type="checkbox" name="review-work-order" value="Discuss change orders and T&M items">
+            Discuss change orders and T&M items
+        </label><br><br>
+
+        <h2>Project Expectations:</h2>
+        <label for="prep-work">Prep Work (Optional: Notes):</label>
+        <input type="text" id="prep-work" name="prep-work"><br><br>
+
+        <label for="application">Application (Optional: Notes):</label>
+        <input type="text" id="application" name="application"><br><br>
+
+        <label for="clean-up">Clean up & Trash at the end:</label>
+        <input type="text" id="clean-up" name="clean-up"><br><br>
+
+        <label for="lead-project">LEAD project? NO SANDING:</label>
+        <input type="text" id="lead-project" name="lead-project"><br><br>
+
+        <h2>Estimated Timeline:</h2>
+        <label for="start-date">Start:</label>
+        <input type="date" id="start-date" name="start-date"><br><br>
+
+        <label for="end-date">End:</label>
+        <input type="date" id="end-date" name="end-date"><br><br>
+
+        <label for="working-hours-start">Working hours Start:</label>
+        <input type="time" id="working-hours-start" name="working-hours-start"><br><br>
+
+        <label for="working-hours-end">Working hours End:</label>
+        <input type="time" id="working-hours-end" name="working-hours-end"><br><br>
+
+        <label for="access-details">Access details (gates, doors, garage codes, etc.):</label>
+        <input type="text" id="access-details" name="access-details"><br><br>
+
+        <h2>Contact Information:</h2>
+        <label for="pm-communication">When can you expect to see/hear from me (Project Manager):</label>
+        <input type="text" id="pm-communication" name="pm-communication"><br><br>
+
+        <label for="pm-contact">How to get a hold of me (Project Manager) and what to communicate about:</label>
+        <textarea id="pm-contact" name="pm-contact"></textarea><br><br>
+
+        <label for="customer-contact">How to get a hold of you and best times to communicate (Customer):</label>
+        <input type="text" id="customer-contact" name="customer-contact"><br><br>
+
+        <h2>Other Information:</h2>
+        <label for="inspection-payment">Heads up about inspection, payment collection, and end of project survey:</label>
+        <textarea id="inspection-payment" name="inspection-payment"></textarea><br><br>
+
+        <label for="signature">Signature:</label>
+        <input type="text" id="signature" name="signature"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>
+
