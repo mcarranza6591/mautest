@@ -80,3 +80,25 @@ button {
 button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
+/* Existing CSS */
+
+#signature-pad {
+    display: block;
+    margin: 10px 0;
+}
+
+#clear-signature {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clear-signature:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
